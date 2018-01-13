@@ -39,7 +39,7 @@ import matplotlib.pyplot as plt
 # Original clusters
 ###################
 
-f = open('result/data/cinq_classes1/cinq_classes1.txt', 'r')
+f = open('data/cinq_classes1.txt', 'r')
 Data = []
 for line in f:
     line = line.split('\t')
